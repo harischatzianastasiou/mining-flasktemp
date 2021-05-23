@@ -12,7 +12,6 @@ apps:
   mining:
      command: mining.py
      daemon: simple
-     stop-timeout: 10s
      restart-condition: never
   
   mining-flasktemp:
